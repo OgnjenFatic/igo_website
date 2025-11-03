@@ -1,0 +1,38 @@
+body {
+	background-color: #202020;
+}
+
+h1 {
+	text-align: center;
+	color: #D6D6D6;
+}
+h3 {
+	text-align: center;
+	color: #D6D6D6;
+}
+p {
+	text-align: center;
+	color: #D6D6D6;
+}
+.flexcontainer {
+	display: flex;
+}
+.flexcontainer > div {
+	width: 33%;
+	border: 2px solid #D6D6D6;
+}
+img {
+	max-width: 70%; 
+	height: auto;
+	display: block;
+  	margin: auto;
+}
+table, th, td {
+  	border: 1px solid black;
+  	border-collapse: collapse;
+  	background-color: #D6D6D6;
+  	text-align: center;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+td:hover {background-color: #D6EEEE;}
